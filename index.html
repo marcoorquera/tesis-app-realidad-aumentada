@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-handler.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    </head>
+	<meta charset="UTF-8">
+	<title>Upload Images Easily</title>
+	<link rel="stylesheet" href="assets/main.css" />
+</head>
+<body>
+	<div id="wrapper">
+		<h1>Subir Imágenes</h1>
+		<div id="container-input">
+			<div class="wrap-file">
+				<div class="content-icon-camera">
+					<input type="file" id="file" name="file[]" accept="image/*" multiple />
+					<div class="icon-camera"></div>
+				</div>
+				<div id="preview-images">
+					
+				</div>
+			</div>
+			<button id="publish">Publicar</button>
+		</div>
+		<div class="preload">
+			<img src="assets/images/preload.gif" alt="preload" />
+		</div>
+		<h2 id="success"></h2>
+	</div>
+  
+
+  
+  
+	<script src="assets/main.js"></script>
+</body>
+</html>

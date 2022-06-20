@@ -1,1 +1,0 @@
-# tesis-app-realidad-aumentada
